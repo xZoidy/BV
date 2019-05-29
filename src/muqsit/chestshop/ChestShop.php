@@ -55,7 +55,7 @@ class ChestShop extends PluginBase{
 		
 
     /** @var InvMenu */
-    private $menu;
+    
 
     public function __construct(string $name){
         $this->menu = InvMenu::create(InvMenu::TYPE_DOUBLE_CHEST)
