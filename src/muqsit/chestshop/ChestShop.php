@@ -162,7 +162,7 @@ class ChestShop extends PluginBase{
 		array_pop($lore);
 		$item->setLore($lore);
 	}
-	public function __construct(string $name){
+	public function __construct(string $chestshop){
         $this->menu = InvMenu::create(InvMenu::TYPE_DOUBLE_CHEST)
             ->readonly()
             ->setName($name)
