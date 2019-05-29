@@ -51,7 +51,7 @@ class ChestShop extends PluginBase{
 		if(!InvMenuHandler::isRegistered()){
 			InvMenuHandler::register($this);
 		}
-
+	}
 		
 
     /** @var InvMenu */
