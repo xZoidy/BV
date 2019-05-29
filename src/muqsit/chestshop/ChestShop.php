@@ -52,7 +52,7 @@ class ChestShop extends PluginBase{
 			InvMenuHandler::register($this);
 		}
 
-		class ChestShop{
+		
 
     /** @var InvMenu */
     private $menu;
